@@ -13,7 +13,6 @@ include:
 - stage: build
 script:
 - tar -xJvf 4_1.tar.xz
-- cd ./4_1
 - ./configure
 - make
 - tree
